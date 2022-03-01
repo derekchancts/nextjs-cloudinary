@@ -133,9 +133,9 @@ function handleDeSelectFolder() {
                   <div className={styles.imageImage}>
                     <Image width={image.width} height={image.height} src={image.image} alt="" />
                   </div>
-                  <h3 className={styles.imageTitle}>
+                  {/* <h3 className={styles.imageTitle}>
                     { image.title }
-                  </h3>
+                  </h3> */}
                 </a>
               </li>
             )

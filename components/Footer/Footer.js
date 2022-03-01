@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 const Footer = ({ ...rest }) => {
   return (
     <footer className={styles.footer} {...rest}>
-      &copy;&nbsp;<a href="https://spacejelly.dev">Space Jelly</a>, {new Date().getFullYear()}
+      Footer.inc, {new Date().getFullYear()}
     </footer>
   )
 }
